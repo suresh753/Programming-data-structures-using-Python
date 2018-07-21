@@ -1,0 +1,7 @@
+
+1. Use fm,fn for list of factors of m,n respestively
+2. For each i in from 1 to m, add i to fm if i divides m.
+3. For each i in from 1 to n, add i to fn if i divides n.
+4. Use cf for common factors.
+5. For each i in fm, add i to cf if i also appears in fn.
+6. Return the largest value (rightmost) of cf.
